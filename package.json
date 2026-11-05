@@ -1,0 +1,30 @@
+{
+  "name": "quick-actions-tray",
+  "version": "1.0.0",
+  "description": "Tray launcher for Downloads organizer",
+  "main": "main.js",
+  "bin": "organize-downloads.js",
+  "pkg": {
+    "assets": [
+      "configHelper.js",
+      "tray-icon.png"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  
+  "keywords": [
+    "electron",
+    "tray",
+    "downloads-organizer",
+    "file-manager",
+    "productivity"
+  ],
+  "author": "Naman",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^39.2.4"
+  }
+}
